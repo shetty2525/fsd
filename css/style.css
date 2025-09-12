@@ -67,7 +67,7 @@ nav a{
     color: white;
     text-decoration: none;
 }
-#icon{
+#icon ,#icon a img{
     width: 20px;
     height: 20px;
     display: flex;
