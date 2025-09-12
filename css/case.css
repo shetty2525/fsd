@@ -36,14 +36,12 @@
 #sec-txt h3{
     background-color: rgb(239, 220, 185);
     color: orange;
-    height: 20px;
-    width: 80px;
-    padding-left: 7px;
+   padding: 4px 6px 4px 6px;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #sec-txt h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #sec-txt button{
     background-color: orange;
@@ -51,8 +49,85 @@
     border-color: orange;
     padding: 10px 30px 10px 30px;
     margin-top: 30px;
+    border-radius: 10px;
 }
 #sec-img img{
     height: 300px;
-    width: 300px;
+    width: 500px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#third{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px 250px 30px 280px;
+}
+#thi-img img{
+    height: 300px;
+    width: 500px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+#thi-txt{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    color: black; 
+}
+#thi-txt h3{
+    background-color: rgb(132, 132, 246);
+    color: rgb(5, 5, 107);
+    padding: 4px 6px 4px 6px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#thi-txt h1{
+    margin-bottom: 10px;
+}
+#thi-txt button{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    padding: 10px 30px 10px 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#fourth{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px 280px 40px 280px;
+}
+#for-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    color: black;
+}
+#for-txt h3{
+     background-color: rgb(125, 192, 125);
+    color:  rgb(18, 56, 18);
+    padding: 4px 6px 4px 6px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#for-txt h1{
+    margin-bottom: 10px;
+}
+#for-txt button{
+    background-color: rgb(18, 56, 18);
+    color: white;
+    border-color: rgb(18, 56, 18);
+    padding: 10px 30px 10px 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#for-img img{
+    height: 300px;
+    width: 500px;
+    margin-left: 10px;
+    border-radius: 10px;
 }
