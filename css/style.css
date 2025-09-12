@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New';
+}
+#about-section h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#about-section p{
+    font-family: 'Courier New';
+    
+}
+#main-section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 700px;
+
+}
+#about-section{
+    /* width: 300px; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+     margin: 0 70px 0 0;
+}
+#about-section button{
+    font-family: 'Courier New';
+    background-color: #3f8e00;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: solid 1px#526f3a;
+        border-radius: 4px;
+        
+}
+#img-section img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-bottom: 90px;
+    
+}
+#about-section h3{
+    margin: 60px 0 0 0;
+}
+nav{
+    background-color :#454545;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 70px 70px 70px;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+#icon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#first{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 700px;
+
+}
+#logo{
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    gap: 60px;
+}
+#outer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#logo img{
+    height: 20px;
+    width: 70px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+
+
+
+
