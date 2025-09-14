@@ -1,0 +1,69 @@
+#third-main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 50px 30px;
+    color: black;
+}
+#three{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 40px 100px 40px 100px;
+}
+#three h1{
+    font-size: 50px;
+}
+#three1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 10px 10px 10px;
+
+}
+#three1-img{
+    margin: 10px 20px 10px 20px;
+}
+#three2-img{
+    margin: 10px 20px 10px 20px;
+}
+#three1-img p{
+    padding-right: 50px;
+    width: 450px;
+    margin: 15px 0 15px 0;
+}
+#three2-img p{
+    padding-right: 50px;
+    width: 450px;
+    margin: 15px 0 15px 0;
+}
+#three1-img img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+   margin-bottom: 20px;
+}
+#three2-img img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+     margin-bottom: 20px;
+}
+#three1-img button{
+   background-color: green;
+   border-color: green;
+   border-radius: 5px;
+   color: white;
+   padding: 10px 20px 10px 20px;
+   margin: 10px 0 40px 0;
+}
+#three2-img button{
+   background-color: green;
+   border-color: green;
+   border-radius: 5px;
+   color: white;
+   padding: 10px 20px 10px 20px;
+   margin: 10px 0 40px 0;
+}

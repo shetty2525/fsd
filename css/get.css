@@ -1,0 +1,36 @@
+#fourth-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#four h1{
+    font-size: 50px;
+}
+#four p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+#four1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+#four1 input,textarea{
+    height: 30px;
+    width: 20vw;
+    border-radius: 10px;
+    padding: 2px 0 2px 5px;
+}
+#four1 button{
+    background-color: green;
+    height: 40px;
+    width: 20vw;
+    margin-top: 40px;
+    border-radius: 10px;
+}
